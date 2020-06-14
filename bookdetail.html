@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HEDSPI Library</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/themify/themify-icons.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/elegant-font/html-css/style.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/animsition/css/animsition.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/select2/select2.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/lightbox2/css/lightbox.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--
+      ===============================================================================================
+    -->
+</head>
+<body class="animsition">
+<!-- Header -->
+<header class="header1">
+    <!-- Header desktop -->
+    <div class="container-menu-header">
+        <div class="topbar">
+            <div class="topbar-social">
+                <a href="https://www.facebook.com/cafetrasuathayphuong/" class="topbar-social-item fa fa-facebook"></a>
+                <a href="https://www.foody.vn/ha-noi/citea-fun-tea-coffee-ta-quang-buu" class="topbar-social-item fa fa-instagram"></a>
+                <a href="https://www.now.vn/HA-NOI/citea-fun-tea-coffee-ta-quang-buu" class="topbar-social-item fa fa-youtube-play"></a>
+            </div>
+
+            <span class="topbar-child1"> </span>
+
+            <div class="topbar-child2">
+                <span class="current-user"></span>
+
+            </div>
+        </div>
+
+        <div class="wrap_header px-3">
+            <!-- Logo -->
+
+            <a href="index.html" class="logo">
+                <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
+                <h2>HEDSPI Library</h2>
+            </a>
+
+            <!-- Menu -->
+            <div class="wrap_menu">
+                <nav class="menu">
+                    <ul class="main_menu">
+                        <li><a href="index.html">Home</a></li>
+                        <!--
+                          <li class="sale-noti">
+                              <a href="product.html">Sale</a>
+                          </li>
+                        -->
+                        <li>
+                            <a href='/search.html?tag=Fiction'>Category</a>
+                            <ul class="sub_menu">
+                                <li><a href='/search.html?tag=tiểu thuyết'>Novel</a></li>
+                                <li><a href='/search.html?tag=Fiction'>Fiction </a></li>
+                                <li><a href='/search.html?tag=văn học nước ngoài'>Foreign Book</a></li>
+
+                                <li><a href='/search.html?tag=Fiction'>See more >></a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="about.html">About</a></li>
+                        <li class="login-nav"><a href="/login/login.html">Log In</a></li>
+                        <li class="logout-nav"><a style="cursor: pointer">Log Out</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <form id="nav-search" class="pos-relative bo12 of-hidden searchbox">
+                <input class="s-text7 size16 p-l-23 p-r-50 inputbox" type="text" name="nav-keyword" id="nav-keyword" placeholder="Search">
+
+                <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
+                    <i class="fs-13 fa fa-search" aria-hidden="true"></i>
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Header Mobile -->
+    <div class="wrap_header_mobile">
+        <!-- Logo moblie -->
+        <a href="index.html" class="logo-mobile">
+            <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
+            <h4>HEDSPI Library</h4>
+        </a>
+
+        <!-- Button show menu -->
+        <div class="btn-show-menu">
+            <!-- Header Icon mobile -->
+
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div class="wrap-side-menu">
+        <nav class="side-menu">
+            <ul class="main-menu">
+
+                <li class="item-menu-mobile current-user text-right p-3"></li>
+                <li class="item-menu-mobile"><a href="index.html">Home</a></li>
+                <li class="item-menu-mobile"><a href="search.html">Search</a></li>
+                <li class="item-menu-mobile">
+                    <a href='/search.html?tag=Fiction'>Category</a>
+                    <ul class="sub-menu">
+                        <li><a href='/search.html?tag=tiểu thuyết'>Novel</a></li>
+                        <li><a href='/search.html?tag=Fiction'>Fiction </a></li>
+                        <li><a href='/search.html?tag=văn học nước ngoài'>Foreign Book</a></li>
+                        <li><a href='/search.html?tag=Fiction'>See more >></a></li>
+                    </ul>
+                    <i
+                            class="arrow-main-menu fa fa-angle-right"
+                            aria-hidden="true"
+                    ></i>
+                </li>
+                <li class="item-menu-mobile"><a href="about.html">About</a></li>
+
+                <li class="item-menu-mobile login-nav"><a href="/login/login.html">Login</a></li>
+
+
+                <li class="item-menu-mobile logout-nav"><a>Log Out</a></li>
+
+                <!--<li class="item-menu-mobile"><a href="index.html"></a></li>-->
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<!-- content page -->
+<section class="bgwhite p-t-60 p-b-25">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-9 p-b-80">
+                <div class="p-r-50 p-r-0-lg">
+                    <div class="p-b-40">
+                        <section class="bgwhite p-t-68 p-b-38">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-5 p-b-30 px-30">
+                                        <div class="hov-img-zoom">
+                                            <img id="bookImage" src="images/thumb-item-01.jpg" alt="IMG-ABOUT">
+                                        </div>
+                                    </div>
+                                    <!-- Story + tóm tắt-->
+                                    <div class="col-md-7 p-b-30 p-l-30">
+                                        <h1 class="m-text26 p-t-15 p-b-15 font-weight-bold p-l-10" id="bookName">
+
+                                        </h1>
+
+                                        <div class="p-t-10 p-b-10" id="tacgia">Tác giả:</div>
+                                        <div class="p-t-10 p-b-10" id="nhaxuatban">Nhà xuất bản:</div>
+                                        <div class="p-t-10 p-b-10" id="namxuatban">Năm xuất bản:</div>
+                                        <!--<div class="p-t-10 p-b-10" id="namphathanh">Năm phát hành: 2005</div>-->
+                                        <div class="p-t-10 p-b-10" id="ngonngu">Ngôn ngữ:</div>
+                                        <div class="p-t-10 p-b-10" id="theloai">Thể loại:</div>
+                                    </div>
+
+
+
+
+                                    <h4 class="m-text25  p-b-5 p-l-15 p-t-40">User comment</h4>
+                                    <!-- box comment -->
+                                    <div class ="col-md-12 p-t-15 p-b-40 list-group border-5 list-group-flush" id="commentlist">
+                                        <!--<a class="list-group-item"><div>user1</div><div>user1 comment</div></a>-->
+                                        <!--<a class="list-group-item"><div>user2</div><div>user2 comment</div></a>-->
+                                        <!--<a class="list-group-item"><div>user3</div><div>user3 comment</div></a>-->
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                    <form class="leave-comment p-t-30">
+                                        <h4 class="m-text25  p-b-5 p-l-15">
+                                            Leave a Comment
+                                        </h4>
+
+                                        <div class="col-md-12 p-t-10 ">Rate this book</div>
+                                        <div class="col-md-12 p-t-20 p-b-10">
+
+                                            <div class="p-r-10 d-inline ui-icon ui-icon-star"><label class="radio-inline "><input type="radio" name="optradio" checked>  1 star</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  2 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  3 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  4 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  5 stars</label></div>
+                                        </div>
+
+
+                                        <p class="s-text8 p-b-10 p-t-10 p-l-15">
+                                            Comment below to share your thought about this book with other people.
+                                            <br>Require signed in account to comment.
+                                        </p>
+
+                                        <textarea class="  s-text7 size18 bo12 ml-3 m-b-20" name="comment" placeholder="Comment..."></textarea>
+
+
+
+                                        <div class="w-size24">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg1 bo-rad-20 ml-3 hov1 s-text1 trans-0-4">
+                                                Post Comment
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- right bar -->
+            <div class="col-md-4 col-lg-3 p-b-80">
+                <div class="rightbar">
+
+
+
+                    <!-- Featured Products -->
+                    <h4 class="m-text23 p-t-65 p-b-34">
+                        Suggested book
+                    </h4>
+
+                    <ul class="bgwhite" id="suggestList">
+                        <li class="flex-w p-b-20" >
+                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail1">
+                                <img id="recommendImage1" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5 recommendDetail1">
+                                <a class="s-text20" id="recommendName1">
+                                    Book Name
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="flex-w p-b-20">
+                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail2">
+                                <img id="recommendImage2" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5 recommendDetail2">
+                                <a class="s-text20" id="recommendName2">
+                                    Book Name
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="flex-w p-b-20">
+                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail3">
+                                <img id="recommendImage3" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5 recommendDetail3">
+                                <a class="s-text20" id="recommendName3">
+                                    Book Name
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="flex-w p-b-20">
+                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail4">
+                                <img id="recommendImage4" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5 recommendDetail4">
+                                <a class="s-text20" id="recommendName4">
+                                    Book Name
+                                </a>
+
+                            </div>
+                        <li class="flex-w p-b-20" id="recommendDetail5">
+                            <a class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4 recommendDetail5">
+                                <img id="recommendImage5" src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5 recommendDetail5">
+                                <a class="s-text20" id="recommendName5">
+                                    Book Name
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="bg6 p-t-45 p-b-43 p-l-80 ">
+    <div class="flex-w p-b-90">
+        <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+            <h4 class="s-text12 p-b-30">GET IN TOUCH</h4>
+
+            <div>
+                <p class="s-text7 w-size27">
+                    Any questions?<br> Let us know in HEDSPI Library - HUST <br>or call us on (+84) 0842299904
+                </p>
+
+
+                <div class="flex-m p-t-30">
+                    <a href="https://www.facebook.com/cafetrasuathayphuong/" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
+                    <a href="https://www.now.vn/HA-NOI/citea-fun-tea-coffee-ta-quang-buu" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+            <h4 class="s-text12 p-b-30">Categories</h4>
+
+            <ul>
+                <li class="p-b-9"><a href='/search.html?tag=manga' class="s-text7"> Manga </a></li>
+
+                <li class="p-b-9"><a href='/search.html?tag=Fiction' class="s-text7"> Fiction </a></li>
+
+                <li class="p-b-9"><a href='/search.html?tag=tiểu thuyết' class="s-text7"> Novel</a></li>
+
+                <li class="p-b-9"><a href='/search.html?tag=văn học nước ngoài' class="s-text7"> Foreign Book </a></li>
+
+                <li class="p-b-9"><a href='/search.html?tag=Fiction' class="s-text7"> Others </a></li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="w-size7 p-t-30 p-l-75 p-r-15 respon4">
+            <h4 class="s-text12 p-b-30">Links</h4>
+
+            <ul>
+                <li class="p-b-9"><a href="search.html" class="s-text7"> Search </a></li>
+
+                <li class="p-b-9"><a href="about.html" class="s-text7"> About Us </a></li>
+
+            </ul>
+        </div>
+
+
+        <div class="w-size8 p-t-30 p-l-150 p-r-15 respon3">
+            <h4 class="s-text12 p-b-30">Newsletter</h4>
+
+            <form>
+                <div class="effect1 w-size9">
+                    <input
+                            class="s-text7 bg6 w-full p-b-5"
+                            type="text"
+                            name="email"
+                            placeholder="email@example.com"
+                    />
+                    <span class="effect1-line"></span>
+                </div>
+
+                <div class="w-size2 p-t-20">
+
+                    <button
+                            class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4"
+                    >
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</footer>
+
+<!-- Back to top -->
+<div class="btn-back-to-top bg0-hov" id="myBtn">
+      <span class="symbol-btn-back-to-top">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+      </span>
+</div>
+
+<!-- Container Selection1 -->
+<div id="dropDownSelect1"></div>
+
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/jquery/jquery-3.2.1.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/animsition/js/animsition.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+<script
+        type="text/javascript"
+        src="vendor/bootstrap/js/bootstrap.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<script type="text/javascript">
+    $(".selection-1").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $("#dropDownSelect1")
+    });
+</script>
+<!--
+  ===============================================================================================
+-->
+<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/slick-custom.js"></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/countdowntime/countdowntime.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/lightbox2/js/lightbox.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/sweetalert/sweetalert.min.js"
+></script>
+
+<!--
+  ===============================================================================================
+-->
+<script src="js/main.js"></script>
+
+<!--<script src="./dev-js/index.js"></script>-->
+<script src="./dev-js/navsearch.js"></script>
+<script src="./dev-js/bookdetail.js"></script>
+
+</body>
+</html>

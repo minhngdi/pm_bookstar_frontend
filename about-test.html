@@ -1,0 +1,602 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HEDSPI Library</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/themify/themify-icons.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/elegant-font/html-css/style.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/animsition/css/animsition.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/select2/select2.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/daterangepicker/daterangepicker.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+    <!--
+      ===============================================================================================
+    -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/lightbox2/css/lightbox.min.css"
+    />
+    <!--
+      ===============================================================================================
+    -->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--
+      ===============================================================================================
+    -->
+</head>
+<body class="animsition">
+<!-- Header -->
+<header class="header1">
+    <!-- Header desktop -->
+    <div class="container-menu-header">
+        <div class="topbar">
+            <div class="topbar-social">
+                <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+                <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+                <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+            </div>
+
+            <span class="topbar-child1"> </span>
+
+            <div class="topbar-child2">
+                <span class="topbar-email"> Language </span>
+
+                <div class="topbar-language rs1-select2">
+                    <select class="selection-1" name="time">
+                        <option>ENG</option>
+                        <option>VIET</option>
+                        <option>JAP</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap_header">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
+                <h1>HEDSPI Library</h1>
+            </a>
+
+            <!-- Menu -->
+            <div class="wrap_menu">
+                <nav class="menu">
+                    <ul class="main_menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#NewArrival">New Arrival</a></li>
+                        <!--
+                          <li class="sale-noti">
+                              <a href="product.html">Sale</a>
+                          </li>
+                        -->
+                        <li>
+                            <a href="#Category">Category</a>
+                            <ul class="sub_menu">
+                                <li><a href="">Văn Học</a></li>
+                                <li><a href="">Thiếu Nhi</a></li>
+                                <li><a href="">Trinh Thám</a></li>
+                                <li><a href="">Xem thêm >></a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="about.html">About</a></li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Mobile -->
+    <div class="wrap_header_mobile">
+        <!-- Logo moblie -->
+        <a href="index.html" class="logo-mobile">
+            <!-- <img src="images/icons/logo.png" alt="IMG-LOGO" /> -->
+            <h4>HEDSPI Library</h4>
+        </a>
+
+        <!-- Button show menu -->
+        <div class="btn-show-menu">
+            <!-- Header Icon mobile -->
+
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div class="wrap-side-menu">
+        <nav class="side-menu">
+            <ul class="main-menu">
+                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+                    <div class="topbar-child2-mobile">
+                        <span class="topbar-email"> Language</span>
+
+                        <div class="topbar-language rs1-select2 ">
+                            <select class="selection-1" name="time">
+                                <option>ENG</option>
+                                <option>VIET</option>
+                                <option>JAP</option>
+                            </select>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="item-topbar-mobile p-l-10">
+                    <div class="topbar-social-mobile">
+                        <a href="#" class="topbar-social-item fa fa-facebook"></a>
+                        <a href="#" class="topbar-social-item fa fa-instagram"></a>
+                        <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+                        <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+                        <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+                    </div>
+                </li>
+
+                <li class="item-menu-mobile"><a href="index.html">Home</a></li>
+
+                <li class="item-menu-mobile">
+                    <a href="product.html">New Arrival</a>
+                </li>
+
+                <li class="item-menu-mobile">
+                    <a>Category</a>
+                    <ul class="sub-menu">
+                        <li><a href="">Văn Học</a></li>
+                        <li><a href="">Thiếu Nhi</a></li>
+                        <li><a href="">Trinh Thám</a></li>
+                        <li><a href="">Xem thêm >></a></li>
+                    </ul>
+                    <i
+                            class="arrow-main-menu fa fa-angle-right"
+                            aria-hidden="true"
+                    ></i>
+                </li>
+
+                <li class="item-menu-mobile"><a href="about.html">About</a></li>
+
+                <li class="item-menu-mobile"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+
+
+
+<!-- content page -->
+<section class="bgwhite p-t-60 p-b-25">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-9 p-b-80">
+                <div class="p-r-50 p-r-0-lg">
+                    <div class="p-b-40">
+                        <section class="bgwhite p-t-68 p-b-38">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 p-b-30">
+                                        <div class="hov-img-zoom">
+                                            <img src="images/banner-14.jpg" alt="IMG-ABOUT">
+                                        </div>
+                                    </div>
+                                    <!-- Story + tóm tắt-->
+                                    <div class="col-md-8 p-b-30">
+                                        <h3 class="m-text26 p-t-15 p-b-15 font-weight-bold">
+
+                                        </h3>
+                                        <div class="p-t-10 p-b-10">Nhà xuất bản:</div>
+                                        <div class="p-t-10 p-b-10">Năm xuất bản:</div>
+                                        <div class="p-t-10 p-b-10">Năm phát hành:</div>
+                                        <div class="p-t-10 p-b-10">Ngôn ngữ:</div>
+                                        <div class="p-t-10 p-b-10">Thể loại:</div>
+                                    </div>
+
+
+
+
+
+                                    <h4 class="m-text25  p-b-5 p-l-15">User comment</h4>
+                                    <!-- box comment -->
+                                    <div class ="col-md-12 p-t-15 p-b-40 list-group border-5 list-group-flush">
+                                        <a class="list-group-item"><div>user1</div><div>user1 comment</div></a>
+                                        <a class="list-group-item"><div>user2</div><div>user2 comment</div></a>
+                                        <a class="list-group-item"><div>user3</div><div>user3 comment</div></a>
+
+
+                                    </div>
+
+
+
+
+
+
+
+                                    <form class="leave-comment">
+                                        <h4 class="m-text25  p-b-5 p-l-15">
+                                            Leave a Comment
+                                        </h4>
+
+                                        <div class="col-md-12 p-t-10 ">Rate this book</div>
+                                        <div class="col-md-12 p-t-20 p-b-10">
+
+                                            <div class="p-r-10 d-inline ui-icon ui-icon-star"><label class="radio-inline "><input type="radio" name="optradio" checked>  1 star</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  2 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  3 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  4 stars</label></div>
+                                            <div class="p-r-10 d-inline"><label class="radio-inline "><input type="radio" name="optradio" >  5 stars</label></div>
+                                        </div>
+
+
+                                        <p class="s-text8 p-b-10 p-t-10 p-l-15">
+                                            Comment below to share your thought about this book with other people.
+                                            <br>Require signed in account to comment.
+                                        </p>
+
+                                        <textarea class="  s-text7 size18 bo12 ml-3 m-b-20" name="comment" placeholder="Comment..."></textarea>
+
+
+
+                                        <div class="w-size24">
+                                            <!-- Button -->
+                                            <button class="flex-c-m size1 bg1 bo-rad-20 ml-3 hov1 s-text1 trans-0-4">
+                                                Post Comment
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- right bar -->
+            <div class="col-md-4 col-lg-3 p-b-80">
+                <div class="rightbar">
+
+
+
+                    <!-- Featured Products -->
+                    <h4 class="m-text23 p-t-65 p-b-34">
+                        Suggested book
+                    </h4>
+
+                    <ul class="bgwhite">
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-16.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    White Shirt With Pleat Detail Back
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-17.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Converse All Star Hi Black Canvas
+                                </a>
+
+
+                            </div>
+                        </li>
+
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-08.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Nixon Porter Leather Watch In Tan
+                                </a>
+
+
+                            </div>
+                        </li>
+
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-03.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Denim jacket blue
+                                </a>
+
+
+                            </div>
+                        </li>
+
+                        <li class="flex-w p-b-20">
+                            <a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+                                <img src="images/item-05.jpg" alt="IMG-PRODUCT">
+                            </a>
+
+                            <div class="w-size23 p-t-5">
+                                <a href="product-detail.html" class="s-text20">
+                                    Nixon Porter Leather Watch In Tan
+                                </a>
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
+    <div class="flex-w p-b-90">
+        <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
+            <h4 class="s-text12 p-b-30">GET IN TOUCH</h4>
+
+            <div>
+                <p class="s-text7 w-size27">
+                    Any questions?<br> Let us know in HEDSPI Library <br>or call us on (+84) 0842299904
+                </p>
+
+                <div class="flex-m p-t-30">
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-pinterest-p"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
+                    <a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+            <h4 class="s-text12 p-b-30">Categories</h4>
+
+            <ul>
+                <li class="p-b-9"><a href="#" class="s-text7"> Manga </a></li>
+
+                <li class="p-b-9"><a href="#" class="s-text7"> Văn Học </a></li>
+
+                <li class="p-b-9"><a href="#" class="s-text7"> Tiểu Thuyết </a></li>
+
+                <li class="p-b-9"><a href="#" class="s-text7"> Others </a></li>
+            </ul>
+        </div>
+
+        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+            <h4 class="s-text12 p-b-30">Links</h4>
+
+            <ul>
+                <li class="p-b-9"><a href="#" class="s-text7"> Search </a></li>
+
+                <li class="p-b-9"><a href="#" class="s-text7"> About Us </a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
+            <h4 class="s-text12 p-b-30">Help</h4>
+
+            <ul>
+
+                <li class="p-b-9"><a href="#" class="s-text7"> Support </a></li>
+
+                <li class="p-b-9"><a href="#" class="s-text7"> FAQs </a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+</footer>
+
+<!-- Back to top -->
+<div class="btn-back-to-top bg0-hov" id="myBtn">
+      <span class="symbol-btn-back-to-top">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+      </span>
+</div>
+
+<!-- Container Selection1 -->
+<div id="dropDownSelect1"></div>
+
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/jquery/jquery-3.2.1.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/animsition/js/animsition.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+<script
+        type="text/javascript"
+        src="vendor/bootstrap/js/bootstrap.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+<script type="text/javascript">
+    $(".selection-1").select2({
+        minimumResultsForSearch: 20,
+        dropdownParent: $("#dropDownSelect1")
+    });
+</script>
+<!--
+  ===============================================================================================
+-->
+<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/slick-custom.js"></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/countdowntime/countdowntime.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/lightbox2/js/lightbox.min.js"
+></script>
+<!--
+  ===============================================================================================
+-->
+<script
+        type="text/javascript"
+        src="vendor/sweetalert/sweetalert.min.js"
+></script>
+<script type="text/javascript">
+    $(".block2-btn-addcart").each(function() {
+        var nameProduct = $(this)
+            .parent()
+            .parent()
+            .parent()
+            .find(".block2-name")
+            .html();
+        $(this).on("click", function() {
+            swal(nameProduct, "is added to cart !", "success");
+        });
+    });
+
+    $(".block2-btn-addwishlist").each(function() {
+        var nameProduct = $(this)
+            .parent()
+            .parent()
+            .parent()
+            .find(".block2-name")
+            .html();
+        $(this).on("click", function() {
+            swal(nameProduct, "is added to wishlist !", "success");
+        });
+    });
+</script>
+
+<!--
+  ===============================================================================================
+-->
+<script src="js/main.js"></script>
+</body>
+</html>

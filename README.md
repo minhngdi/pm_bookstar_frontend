@@ -11,7 +11,6 @@ ___
 * [Deployment](#deployment)
 * [Team](#team)
 * [Contribution](#contribution)
-* [License](#license)
 ---
 ## General info
 Finding the book you like in a huge library is not always easy. With HEDSPI library, you can look up total information of plenty of books, also with the reviews and comments from other users.
@@ -23,21 +22,13 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 
 ### Landing Page
 
-![](https://scontent.fhan3-1.fna.fbcdn.net/v/t1.0-9/59649002_2346217765656050_4378662537718136832_o.jpg?_nc_cat=109&_nc_oc=AQn13A2YUtq0X95_qzoedrn_fvNzSRhi3hTPMeKqltrjRSDNZ_Aq1DO3JSwmwKjY5TFv8HuTRB82u1kWYJVzWGV_&_nc_ht=scontent.fhan3-1.fna&oh=0251f5293f5f4887be6c287183e853f1&oe=5D737BB5)" 
+![](https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/102558878_1150329688633735_6150291739903890462_o.jpg?_nc_cat=101&_nc_sid=8024bb&_nc_ohc=nlgJMlFk9D4AX86P_Ql&_nc_ht=scontent.fhph1-2.fna&oh=9218e8b9ac77204e25f3033368095887&oe=5F0E5013)
 
 ### Search Page
-![](https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/59558750_2346217758989384_4454688982185279488_o.jpg?_nc_cat=104&_nc_oc=AQnCa_78USg2baHTwTrr_-xhWaBZtcqigxoee-BeBiJ58l4ivTR75KA2yogcWOOvB7Rs3KhVsDj-L6cXIDtzKDTg&_nc_ht=scontent.fhan4-1.fna&oh=21d45639a5661c0379aedcb937226401&oe=5D6806FE)
+![](https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/104438250_1150329781967059_3805385838980798479_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=8Pfr7wSfcDgAX9YjFue&_nc_ht=scontent.fhph1-1.fna&oh=c5e0c3d2c524e1c4c66ea54e85378962&oe=5F0D8CC3)
 
 ### Book Detail Page
-![](https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-9/59654826_2346217738989386_1529594208095043584_o.jpg?_nc_cat=101&_nc_oc=AQkoK5hIw5CSbxWoVzaWS1AwexTpHDDTu2Li4yyYcupZ585UYr9Y_AvnLnh7F0hfZny7-lsbIc-XxJIHrEIO2AgP&_nc_ht=scontent.fhan3-3.fna&oh=9d1cf3fd628444503c52d79f484eb4a1&oe=5D656217)
-
-### Mobile support
-The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
-<p  align="center" >
-  <img width="300"  src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.0-9/59482094_2346217785656048_6184885496175394816_n.jpg?_nc_cat=103&_nc_oc=AQmPkMpGC7YyAl09E6Kp-3RdMdM2wW-FTJ1ntxPLVlGGdW5Nk8_Dti0OJUY0IKqB9KR4jXwGgkD-vHyjLCqyLW-D&_nc_ht=scontent.fhan3-2.fna&oh=395962964cffcb6e6e3216149f31c7f0&oe=5D69BDDE">
-</p>
-
-
+![](https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/104644215_1150329801967057_8166869742145565855_o.jpg?_nc_cat=104&_nc_sid=8024bb&_nc_ohc=gMkgncVqKtgAX-tAP24&_nc_ht=scontent.fhph1-1.fna&oh=b5a59b0ff5b3eb0ef8b7be327d2be764&oe=5F0F2446)
 
 ---
 ## Technologies
@@ -69,8 +60,8 @@ Using IBM Cloud Service at https://cloud.ibm.com/
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/nguyennd29/csdl-project`
-- Clone backend repo using `https://github.com/nguyennd29/SERVER-library`
+- Clone front-end repository using `https://github.com/minhngdi/pm_bookstar_frontend`
+- Clone back-end repo using `https://github.com/nguyennd29/SERVER-library`
 
 ### Setup
 #### BACKEND
@@ -98,13 +89,13 @@ $ http-server
 
 ---
 
-## Team
+## Front-end team from PM-Team 6
 
 
-| <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="http://github.com/tonytit98" target="_blank">**Nguyễn Trọng Nghĩa**</a> | 
+| <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="https://github.com/minhngdi/" target="_blank">**Nguyễn Đình Minh**</a> | 
 | :---: |:---:| :---:|
-| <img width="200" src="http://hedspi-library.mybluemix.net/images/ava1.jpg"> | <img width="200" src="https://i.imgur.com/nGfQqCM.jpg"> | <img width="200" src="http://hedspi-library.mybluemix.net/images/ava02.jpeg?s=100">  |
-| <a href="http://github.com/nguyennd29" target="_blank">`github.com/nguyennd29`</a> | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="http://github.com/tonytit98" target="_blank">`github.com/tonytit98`</a> |
+| <img width="200" src="https://i.imgur.com/nGfQqCM.jpg"> | <img width="200" src="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/104099805_1150326181967419_176249026345616784_n.jpg?_nc_cat=100&_nc_sid=8024bb&_nc_ohc=qeak8s4JgxsAX8-C6he&_nc_ht=scontent.fhph1-1.fna&oh=f2c7642a0e8140aff9080ba06c5d3809&oe=5F100F68">  |
+| <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="https://github.com/minhngdi/" target="_blank">`github.com/minhngdi`</a> |
 
 
 ---
@@ -116,7 +107,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
---- 
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)

@@ -35,7 +35,7 @@ $(document).ready(function() {
             method: 'GET',
             success: function (data) {
                console.log(data);
-                $('#bookImage').attr("src", "/uploads/" + `${data.book[0].url}`);
+                $('#bookImage').attr("src", "uploads/" + `${data.book[0].url}`);
                 $('#bookName').html(`${data.book[0].bookname.toUpperCase()}`);
 
                 $('#tacgia').html(`Tác giả: ${data.book[0].authorname}`);
@@ -61,16 +61,16 @@ $(document).ready(function() {
                     method: 'GET',
                     success: function (data2) {
                         if (data2.book[0]) {
-                            $('#recommendImage1').attr("src", "/uploads/" + `${data2.book[0].url}`);
+                            $('#recommendImage1').attr("src", "uploads/" + `${data2.book[0].url}`);
                             $('#recommendName1').html(`${data2.book[0].bookname}`);
                             $('.recommendDetail1').click(function () {
-                                window.location.href = `/bookdetail.html?id=${data2.book[0].bookid}`;
+                                window.location.href = `bookdetail.html?id=${data2.book[0].bookid}`;
                             });
                             $('#recommendRating1').html(` RATING:${data2.book[0].avg}/5`);
                         }
 
                         if (data2.book[1]) {
-                            $('#recommendImage2').attr("src", "/uploads/" + `${data2.book[1].url}`);
+                            $('#recommendImage2').attr("src", "uploads/" + `${data2.book[1].url}`);
                             $('#recommendName2').html(`${data2.book[1].bookname}`);
                             $('.recommendDetail2').click(function () {
                                 window.location.href = `/bookdetail.html?id=${data2.book[1].bookid}`;
@@ -79,7 +79,7 @@ $(document).ready(function() {
                         }
 
                         if (data2.book[2]) {
-                            $('#recommendImage3').attr("src", "/uploads/" + `${data2.book[2].url}`);
+                            $('#recommendImage3').attr("src", "uploads/" + `${data2.book[2].url}`);
                             $('#recommendName3').html(`${data2.book[2].bookname}`);
                             $('.recommendDetail3').click(function () {
                                 window.location.href = `/bookdetail.html?id=${data2.book[2].bookid}`;
@@ -88,7 +88,7 @@ $(document).ready(function() {
                         }
 
                         if (data2.book[3]) {
-                            $('#recommendImage4').attr("src", "/uploads/" + `${data2.book[3].url}`);
+                            $('#recommendImage4').attr("src", "uploads/" + `${data2.book[3].url}`);
                             $('#recommendName4').html(`${data2.book[3].bookname}`);
                             $('.recommendDetail4').click(function () {
                                 window.location.href = `/bookdetail.html?id=${data2.book[3].bookid}`;
@@ -97,7 +97,7 @@ $(document).ready(function() {
                         }
 
                         if (data2.book[4]) {
-                            $('#recommendImage5').attr("src", "/uploads/" + `${data2.book[4].url}`);
+                            $('#recommendImage5').attr("src", "uploads/" + `${data2.book[4].url}`);
                             $('#recommendName5').html(`${data2.book[4].bookname}`);
                             $('.recommendDetail5').click(function () {
                                 window.location.href = `/bookdetail.html?id=${data2.book[4].bookid}`;

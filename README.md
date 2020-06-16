@@ -1,7 +1,7 @@
 # HEDSPI Library
 > Easy to look for your book!
 ## Demo
-Here is a working live demo :  http://hedspi-library.mybluemix.net/index.html
+Here is a working live demo : https://nguyennd29.github.io/pm_bookstar_frontend/
 ___
 ## Table of contents
 * [General info](#general-info)
@@ -49,7 +49,7 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 
 ## Deployment
 
-Using IBM Cloud Service at https://cloud.ibm.com/
+Using Firebase Hosting
 
 ---
 

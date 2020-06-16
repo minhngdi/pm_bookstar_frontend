@@ -73,7 +73,7 @@ $(document).ready(function() {
                             $('#recommendImage2').attr("src", "uploads/" + `${data2.book[1].url}`);
                             $('#recommendName2').html(`${data2.book[1].bookname}`);
                             $('.recommendDetail2').click(function () {
-                                window.location.href = `/bookdetail.html?id=${data2.book[1].bookid}`;
+                                window.location.href = `bookdetail.html?id=${data2.book[1].bookid}`;
                             });
                             $('#recommendRating2').html(` RATING:${data2.book[1].avg}/5`);
                         }
@@ -82,7 +82,7 @@ $(document).ready(function() {
                             $('#recommendImage3').attr("src", "uploads/" + `${data2.book[2].url}`);
                             $('#recommendName3').html(`${data2.book[2].bookname}`);
                             $('.recommendDetail3').click(function () {
-                                window.location.href = `/bookdetail.html?id=${data2.book[2].bookid}`;
+                                window.location.href = `bookdetail.html?id=${data2.book[2].bookid}`;
                             });
                             $('#recommendRating3').html(` RATING:${data2.book[2].avg}/5`);
                         }
@@ -91,7 +91,7 @@ $(document).ready(function() {
                             $('#recommendImage4').attr("src", "uploads/" + `${data2.book[3].url}`);
                             $('#recommendName4').html(`${data2.book[3].bookname}`);
                             $('.recommendDetail4').click(function () {
-                                window.location.href = `/bookdetail.html?id=${data2.book[3].bookid}`;
+                                window.location.href = `bookdetail.html?id=${data2.book[3].bookid}`;
                             });
                             $('#recommendRating4').html(` RATING:${data2.book[3].avg}/5`);
                         }
@@ -100,7 +100,7 @@ $(document).ready(function() {
                             $('#recommendImage5').attr("src", "uploads/" + `${data2.book[4].url}`);
                             $('#recommendName5').html(`${data2.book[4].bookname}`);
                             $('.recommendDetail5').click(function () {
-                                window.location.href = `/bookdetail.html?id=${data2.book[4].bookid}`;
+                                window.location.href = `bookdetail.html?id=${data2.book[4].bookid}`;
                             });
                             $('#recommendRating5').html(` RATING:${data2.book[4].avg}/5`);
                         }

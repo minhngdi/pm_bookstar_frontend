@@ -1,7 +1,7 @@
 # HEDSPI Library
 > Easy to look for your book!
 ## Demo
-Here is a working live demo :  http://hedspi-library.mybluemix.net/index.html
+Here is a working live demo : https://nguyennd29.github.io/pm_bookstar_frontend/
 ___
 ## Table of contents
 * [General info](#general-info)
@@ -49,7 +49,7 @@ This project is a part of database course by MS Nguyen Hong Phuong from SOICT - 
 
 ## Deployment
 
-Using IBM Cloud Service at https://cloud.ibm.com/
+Using Firebase Hosting
 
 ---
 
@@ -89,8 +89,8 @@ $ http-server
 
 ---
 
-## Front-end team from PM-Team 6
-
+## Team
+### Team 6's members
 | <a href="https://github.com/nguyennd29" target="_blank">**Nguyễn Duy Nguyên**</a> | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="https://github.com/minhngdi/" target="_blank">**Nguyễn Đình Minh**</a> | 
 | :---: |:---:|:---:|
 | <img width="200" src="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-1/46519527_2242209876056840_7194311056796155904_o.jpg?_nc_cat=100&_nc_sid=dbb9e7&_nc_ohc=zaPW_9yXnEYAX_YbrMJ&_nc_ht=scontent.fhph1-1.fna&oh=684be3b4d02ebd987879ebba9d5605f5&oe=5F0F7655"> | <img width="200" src="https://i.imgur.com/nGfQqCM.jpg"> | <img width="200" src="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/104099805_1150326181967419_176249026345616784_n.jpg?_nc_cat=100&_nc_sid=8024bb&_nc_ohc=qeak8s4JgxsAX8-C6he&_nc_ht=scontent.fhph1-1.fna&oh=f2c7642a0e8140aff9080ba06c5d3809&oe=5F100F68">  |

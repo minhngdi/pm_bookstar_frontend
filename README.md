@@ -91,9 +91,8 @@ $ http-server
 
 ## Front-end team from PM-Team 6
 
-
 | <a href="https://github.com/Atanna128" target="_blank">**Bùi Ngọc Tú**</a> | <a href="https://github.com/minhngdi/" target="_blank">**Nguyễn Đình Minh**</a> | 
-| :---: |:---:| :---:|
+| :---: |:---:|
 | <img width="200" src="https://i.imgur.com/nGfQqCM.jpg"> | <img width="200" src="https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/104099805_1150326181967419_176249026345616784_n.jpg?_nc_cat=100&_nc_sid=8024bb&_nc_ohc=qeak8s4JgxsAX8-C6he&_nc_ht=scontent.fhph1-1.fna&oh=f2c7642a0e8140aff9080ba06c5d3809&oe=5F100F68">  |
 | <a href="http://github.com/Atanna128" target="_blank">`github.com/Atanna128`</a> | <a href="https://github.com/minhngdi/" target="_blank">`github.com/minhngdi`</a> |
 
